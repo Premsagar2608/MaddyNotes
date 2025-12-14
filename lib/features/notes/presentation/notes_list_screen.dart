@@ -1,6 +1,8 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:maddy_notes/core/animations/slide_transition.dart';
+import 'package:maddy_notes/features/auth/presentation/profile_screen.dart';
 import '../providers/notes_provider.dart';
 import 'add_edit_note_screen.dart';
 import 'notes_search_delegate.dart';
@@ -22,6 +24,15 @@ class NotesListScreen extends ConsumerWidget {
               showSearch(
                 context: context,
                 delegate: NotesSearchDelegate(ref),
+              );
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.person),
+            onPressed: () {
+              Navigator.push(
+                context,
+                SlideRightRoute(page: const ProfileScreen()),
               );
             },
           ),
