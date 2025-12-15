@@ -1,4 +1,4 @@
-# KiddysNotes - A Modern Flutter Note-Taking App
+# MaddyNotes - A Modern Flutter Note-Taking App
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Flutter-blue)
@@ -72,7 +72,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1.  **Clone the repository**:
     ```bash
     git clone https://github.com/Premsagar2608/MaddyNotes.git
-    cd KiddysNotes
+    cd MaddyNotes
     ```
 
 2.  **Install dependencies**:
